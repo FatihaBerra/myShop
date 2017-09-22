@@ -1,5 +1,5 @@
 <!-- DataTable Bootstrap Script -->
-<script src="${js}/angular.js"></script>
+<script src="${js}/angular.js"></script> 
 
 <!-- DataTable Bootstrap Script -->
 <script src="${js}/productsController.js"></script>

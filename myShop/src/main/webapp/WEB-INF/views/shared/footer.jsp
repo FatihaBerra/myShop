@@ -6,7 +6,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; MyShop 2017</p>
+                    <p>Copyright &copy; MonCamion 2017</p>
                 </div>
             </div>
         </footer>

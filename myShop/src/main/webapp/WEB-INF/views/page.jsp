@@ -16,12 +16,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="My Shop">
-<meta name="author" content="My Shop">
+<meta name="description" content="MonCamion">
+<meta name="author" content="MonCamion">
 <meta name="_csrf" content="${_csrf.token}">
 <meta name="_csrf_header" content="${_csrf.headerName}">
 
-<title>MyShop - ${title}</title>
+<title>MonCamion - ${title}</title>
 
 <script>
 	window.menu = '${title}';
@@ -81,7 +81,7 @@
 
 			<!-- Load only when user clicks contact -->
 			<c:if
-				test="${userClickAllProducts == true or userClickCategoryProducts == true }">
+				test="${userClickAllVehicules == true or userClickCategorieVehicules == true }">
 				<%@include file="listProducts.jsp"%>
 			</c:if>
 

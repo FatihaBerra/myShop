@@ -23,13 +23,13 @@ $(function() {
 	// solving the active menu problem
 	switch (menu) {
 
-	case 'About Us':
+	case 'A propos':
 		$('#about').addClass('active');
 		break;
 	case 'Contact Us':
 		$('#contact').addClass('active');
 		break;
-	case 'All Products':
+	case 'Nos véhicule':
 		$('#listProducts').addClass('active');
 		break;
 	case 'Product Management':
