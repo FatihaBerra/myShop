@@ -5,4 +5,4 @@
  * @author hp
  *
  */
-package net.Shop.myShopbacken.daoimpl;
+package net.Shop.myShopbackend.daoimpl;

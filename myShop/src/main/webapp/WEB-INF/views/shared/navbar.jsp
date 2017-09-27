@@ -22,7 +22,7 @@
 
 
 				<li id="listProducts"><a
-					href="${contextRoot}/show/all/Vehicules">Nos véhicule</a></li>
+					href="${contextRoot}/show/all/products">Nos véhicule</a></li>
 				<li id="about"><a href="${contextRoot}/about">A propos</a></li>
 
 				<li id="contact"><a href="${contextRoot}/contact">Contact</a></li>

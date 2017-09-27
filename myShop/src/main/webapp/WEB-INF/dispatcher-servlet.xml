@@ -13,7 +13,7 @@
     http://www.springframework.org/schema/webflow-config/spring-webflow-config.xsd        
     ">
 	<context:component-scan base-package="net.Shop.myShop" />
-	<context:component-scan base-package="net.Shop.myShopbacken.daoimpl" />
+	<context:component-scan base-package="net.Shop.myShopbackend" />
 	
 	
 	<bean id="viewResolver"

@@ -5,4 +5,4 @@
  * @author hp
  *
  */
-package net.Shop.myShobackend.dao;
+package net.Shop.myShopbackend.dao;

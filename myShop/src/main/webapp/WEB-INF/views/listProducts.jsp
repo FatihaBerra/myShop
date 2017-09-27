@@ -17,7 +17,7 @@
 
 				<div class="col-lg-12">
 
-					<c:if test="${userClickAllVehicules == true}">
+					<c:if test="${userClickAllProducts == true}">
 
 						<script>
 							window.categoryId = '';
@@ -34,9 +34,9 @@
 					</c:if>
 
 
-					<c:if test="${userClickCategorieVehicules == true}">
+					<c:if test="${userClickCategoryProducts == true}">
 						<script>
-							window.categoryId = '${categorie.id_categorie}';
+							window.categoryId = '${category.id_categorie}';
 						</script>
 
 						<ol class="breadcrumb">
@@ -44,7 +44,7 @@
 
 							<li><a href="${contextRoot}/home">Home</a></li>
 							<li class="active">categorie</li>
-							<li class="active">${categorie.nom_cat}</li>
+							<li class="active">${category.nom_cat}</li>
 
 
 						</ol>
@@ -56,9 +56,52 @@
 
 			</div>
 
+			<div class="row">
+
+				<div class="col-xs-12">
+
+
+					<table id="productListTable"
+						class="table table-striped table-borderd">
+
+
+						<thead>
+
+							<tr>
+								<th></th>
+								<th>Name</th>
+								<th>Marque</th>
+								<th>Prix</th>
+								<th>Qty. Disponible</th>
+								<th></th>
+
+							</tr>
+
+						</thead>
+
+
+						<tfoot>
+
+							<tr>
+								<th></th>
+								<th>Name</th>
+								<th>Marque</th>
+								<th>Prix</th>
+								<th>Qty. Disponible</th>
+								<th></th>
+
+							</tr>
+
+						</tfoot>
+					</table>
+
+				</div>
+
+			</div>
+
+
 
 		</div>
-
 
 
 	</div>

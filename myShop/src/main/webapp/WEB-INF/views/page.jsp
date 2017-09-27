@@ -31,6 +31,7 @@
 
 <!-- Bootstrap Core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
+
 <!-- Bootstrap Readable Theme -->
 <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
 
@@ -81,7 +82,7 @@
 
 			<!-- Load only when user clicks contact -->
 			<c:if
-				test="${userClickAllVehicules == true or userClickCategorieVehicules == true }">
+				test="${userClickAllProducts == true or userClickCategoryProducts == true }">
 				<%@include file="listProducts.jsp"%>
 			</c:if>
 
